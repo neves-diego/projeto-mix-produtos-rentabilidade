@@ -101,7 +101,7 @@ Criação de dashboard estratégico no Looker Studio com foco em tomada de decis
 ## Dashboard
 
 Link do dashboard:
-(https://datastudio.google.com/reporting/2ec6602e-038c-432f-8178-e8a868d5331a)
+(https://datastudio.google.com/reporting/2ec6602e-038c-432f-8178-e8a868d5331a/page/p_qb47f3c22d)
 
 ---
 
