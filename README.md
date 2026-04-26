@@ -3,7 +3,7 @@
 
 ## Sobre o Projeto
 
-Este projeto tem como objetivo identificar quais categorias de produtos realmente sustentam a rentabilidade de uma operação comercial, utilizando a metodologia de classificação ABC baseada em lucro.
+Este projeto tem como objetivo identificar quais categorias de produtos realmente sustentam a rentabilidade de uma operação comercial, utilizando a metodologia de Classificação ABC baseada em lucro.
 
 Muitas empresas avaliam seus produtos apenas pelo faturamento bruto, o que pode levar a decisões equivocadas. Produtos com alto volume de vendas nem sempre geram alta margem de lucro, podendo inclusive comprometer a saúde financeira da operação.
 
@@ -17,10 +17,10 @@ Produtos com alto faturamento nem sempre são os mais lucrativos.
 
 Essa distorção pode levar empresas a:
 
-- investir em produtos pouco rentáveis
-- ocupar estoque com itens de baixo retorno
-- comprometer capital de giro
-- tomar decisões estratégicas equivocadas
+investir em produtos pouco rentáveis
+ocupar estoque com itens de baixo retorno
+comprometer capital de giro
+tomar decisões estratégicas equivocadas
 
 A análise ABC baseada em rentabilidade permite identificar quais produtos devem ser priorizados, otimizados ou revisados.
 
@@ -32,12 +32,12 @@ Foi utilizado o dataset SuperMarket Analysis, disponível publicamente na plataf
 
 A base contém informações de vendas de supermercado, incluindo:
 
-- categoria de produto
-- preço unitário
-- quantidade vendida
-- receita total
-- custo da mercadoria vendida (COGS)
-- lucro bruto
+categoria de produto
+preço unitário
+quantidade vendida
+receita total
+custo da mercadoria vendida (COGS)
+lucro bruto
 
 A presença da variável COGS permite calcular a rentabilidade real sem necessidade de simulações artificiais.
 
@@ -65,13 +65,14 @@ Download direto do arquivo CSV via Kaggle.
 - verificação de valores nulos
 - agrupamento por categoria de produto
 
-### 3. Análise Exploratória (EDA)
+### 3. Modelagem e Análise Exploratória (EDA)
 
 - receita total
 - custo total
 - lucro bruto
 - margem média
 - participação acumulada no lucro
+- criação de Curva ABC por rentabilidade
 
 ### 4. Classificação ABC
 
@@ -83,7 +84,7 @@ Aplicação da Curva ABC com base no lucro:
 
 ### 5. Dashboard Executivo
 
-Criação de dashboard estratégico no Looker Studio com foco em tomada de decisão.
+Criação de dashboard estratégico no Looker Studio com foco em tomada de decisão e diagnóstico de rentabilidade.
 
 ---
 
@@ -93,13 +94,14 @@ Criação de dashboard estratégico no Looker Studio com foco em tomada de decis
 - Health and Beauty apresenta alto faturamento, mas baixa rentabilidade
 - Faturamento isolado não representa eficiência financeira
 - Melhorar o mix de produtos pode aumentar margem sem aumentar vendas
+- A gestão baseada em rentabilidade permite decisões mais inteligentes sobre estoque, precificação e fornecedores
 
 ---
 
 ## Dashboard
 
 Link do dashboard:
-https://datastudio.google.com/s/pdOGN_SIg08
+(https://datastudio.google.com/reporting/2ec6602e-038c-432f-8178-e8a868d5331a)
 
 ---
 
